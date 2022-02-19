@@ -4,6 +4,7 @@ import { BlingProvider } from '@modules/deals/providers/BlingProvider/implementa
 
 import { container } from 'tsyringe';
 import { IDeal } from '../dtos/deal.dto';
+import { CreateDealService } from '../services/createDeal.service';
 
 const blingProvider = new BlingProvider();
 
@@ -16,7 +17,7 @@ export interface Job {
 export const InsertDealsJob: Job = {
   key: 'InsertDealsJob',
   async handle({ data }: { data: IDeal[] }) {
-    // const saveOpportunity = container.resolve(SaveOpportunityService);
+    const saveOpportunity = container.resolve(CreateDealService);
 
     await Promise.all(
       data.map(async (deal: IDeal) => {
@@ -28,7 +29,12 @@ export const InsertDealsJob: Job = {
             value: deal.value,
           })
           .then(async () => {
-            console.log('done!');
+            await saveOpportunity.execute({
+              title: deal.title,
+              currency: deal.currency,
+              person_name: deal.person_name,
+              value: deal.value,
+            });
           });
       }),
     );
