@@ -6,6 +6,11 @@
   "author": "Wagner Rodrigues <wagnerrodrigues102003@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.5"
   }
