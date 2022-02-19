@@ -9,6 +9,7 @@ import cors from 'cors';
 import { router } from './routes';
 import { errorCatcherMiddleware } from './middlewares/errorCatcher.middleware';
 
+import '@shared/container';
 import '@shared/infra/typeorm';
 
 const app = express();
