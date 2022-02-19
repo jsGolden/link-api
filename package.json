@@ -1,0 +1,8 @@
+{
+  "name": "link-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jsGolden/link-api",
+  "author": "Wagner Rodrigues <wagnerrodrigues102003@gmail.com>",
+  "license": "MIT"
+}
