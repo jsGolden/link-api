@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/jsGolden/link-api",
   "author": "Wagner Rodrigues <wagnerrodrigues102003@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  }
 }
