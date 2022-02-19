@@ -10,7 +10,7 @@ interface IResponse {
   data: IWonDeal[];
 }
 
-class PipedriverProvider implements IDealsProvider {
+class PipedriveProvider implements IDealsProvider {
   private readonly apiKey = process.env.PIPEDRIVE_KEY;
 
   private readonly linkAPI = process.env.PIPEDRIVE_LINK_API;
@@ -41,4 +41,4 @@ class PipedriverProvider implements IDealsProvider {
   }
 }
 
-export { PipedriverProvider };
+export { PipedriveProvider };
