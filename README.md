@@ -1,7 +1,7 @@
 # ☁️📶 LinkApi - Teste técnico!
 
 <p align="center">
-  <img alt="LinkApi"src="https://i.imgur.com/DjhmTSD.png" width="100%" height="auto">
+  <img alt="LinkApi"src="https://i.imgur.com/DjhmTSD.png" width="60%" height="auto">
 </p>
 
 ## 📌 Projeto
