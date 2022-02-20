@@ -4,6 +4,15 @@
   <img alt="LinkApi"src="https://i.imgur.com/DjhmTSD.png" width="60%" height="auto">
 </p>
 
+<p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-fundamentos-e-estratégias-abordadas">Fundamentos e estratégias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-documentação">Documentação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-clonando-e-executando">Clonando e executando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
+
 ## 📌 Projeto
 <b>Esta aplicação foi desenvolvido entre os dias 18 à 20 de fevereiro de 2022, com base no teste técnico fornecido pela</b> [@LinkApi Solutions](https://www.linkapi.solutions/)!<br>
 Seu objetivo principal é integrar a plataforma [@Pipedrive](https://www.pipedrive.com/) com a plataforma [@Bling](https://www.bling.com.br/).<br>
@@ -40,7 +49,7 @@ Ou seja, rápido tempo de resposta e entrega, com manuseamento de filas utilizan
 - Open-closed principle (OCP).
 
 ## 📚 Documentação
-A documentação dessa API foi construída utilizando um toolset famoso para a construção de documentações, chamado de [Swagger](https://swagger.io/).
+A documentação dessa API foi construída utilizando um toolset famoso para a construção de documentações, chamado de [Swagger](https://swagger.io/).<br>
 <b>Para conseguir acessar a mesma, basta se redirecionar para a rota `/docs` depois de iniciar o servidor.</b>
 
 ## 📥 Clonando e executando
@@ -88,7 +97,7 @@ Para conseguir executar o projeto sem nenhuma interferência, certifique de ter 
   npm run dev:queue # ou yarn dev:queue
 ```
 
-4. [Opicional]: Execução de testes unitários:
+4. [Opcional]: Execução de testes unitários:
 ```shell
   npm run test
   # ou: yarn test
@@ -97,4 +106,5 @@ Para conseguir executar o projeto sem nenhuma interferência, certifique de ter 
 ## 📑 Licença
 Este projeto está sobre a licença MIT.
 
+<hr>
 <p align="center">Desenvolvido com 💜 por Wagner Rodrigues</p>
