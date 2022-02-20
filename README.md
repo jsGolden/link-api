@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [Docker](https://www.docker.com/) - Criação de containers para um melhor e mais rápido desenvolvimento.
 - [Typeorm](https://typeorm.io/) - Manipulação de dados relacionais via Objetos.
 - [MongoDB](https://www.mongodb.com/) - Banco da dados não relacional.
-- [Reid](https://redis.io/) - Armazenamento de dados em memória de alta performance.
+- [Redis](https://redis.io/) - Armazenamento de dados em memória de alta performance.
 - [Express](https://expressjs.com/) - Framework de rotas não opinado para NodeJS.
 - [Axios](https://github.com/axios/axios) - Biblioteca de requisições HTTP.
 - [Microsoft - Tsyringe](https://github.com/microsoft/tsyringe) - Biblioteca para injeções de dependências.
