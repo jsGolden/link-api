@@ -53,7 +53,7 @@ A documentação dessa API foi construída utilizando um toolset famoso para a c
 <b>Para conseguir acessar a mesma, basta se redirecionar para a rota `/docs` depois de iniciar o servidor.</b>
 
 ## 📥 Clonando e executando
-Para conseguir executar o projeto sem nenhuma interferência, certifique de ter os requisitos mínimos:<br>
+Para conseguir executar o projeto sem nenhuma interferência, certifique-se de ter os requisitos mínimos:<br>
 
 - [NodeJS](https://nodejs.org/en/)
 - [NPM](https://www.npmjs.com/) ou/e [Yarn](https://yarnpkg.com/)
