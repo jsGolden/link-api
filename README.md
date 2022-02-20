@@ -14,7 +14,7 @@
 </p>
 
 ## 📌 Projeto
-<b>Esta aplicação foi desenvolvido entre os dias 18 à 20 de fevereiro de 2022, com base no teste técnico fornecido pela</b> [@LinkApi Solutions](https://www.linkapi.solutions/)!<br>
+<b>Esta aplicação foi desenvolvida entre os dias 18 à 20 de fevereiro de 2022, com base no teste técnico fornecido pela</b> [@LinkApi Solutions](https://www.linkapi.solutions/)!<br>
 Seu objetivo principal é integrar a plataforma [@Pipedrive](https://www.pipedrive.com/) com a plataforma [@Bling](https://www.bling.com.br/).<br>
 Enquanto busca os dados disponíveis no Pipedrive de forma contínua e cronometrada, o servidor tem como responsabilidade salvar dados ainda não cadastrados no banco e mandar tais informações para a comunicação com a API Bling.
 
