@@ -1,0 +1,60 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Link-Api Docs",
+    "description": "The API with the responsibility of integrating Pipedrive with Bling",
+    "version": "1.0.0",
+    "contact": {
+      "email": "wagnerrodrigues102003@gmail.com"
+    }
+  },
+  "paths": {
+    "/deals": {
+      "tags": ["Deals"],
+      "get": {
+        "summary": "Get deals",
+        "description": "Get database deals.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "items": {
+                "type": "array",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "person_name": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "number"
+                  },
+                  "currency": {
+                    "type": "string"
+                  },
+                  "status": {
+                    "type": "string"
+                  },
+                  "created_at": {
+                    "type": "string"
+                  },
+                  "updated_at": {
+                    "type": "string"
+                  }
+                }
+              }
+
+            }
+          },
+          "400": {
+            "description": "Deals not found."
+          }
+        }
+      }
+    }
+  }
+}
